@@ -12,7 +12,7 @@ Node *nil;
 Node* listSearch(int key) {
     Node *cur = nil->next;
     while ( cur != nil && cur->key != key) {
-        cur cur->next;
+        cur = cur->next;
     }
     return cur;
 }
