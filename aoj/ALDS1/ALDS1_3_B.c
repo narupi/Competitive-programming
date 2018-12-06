@@ -31,7 +31,7 @@ int main() {
 
     for( i = 1; i <= n; i++) {
         scanf("%s", Q[i].name);
-        scanf("%s", &Q[i].t);
+        scanf("%d", &Q[i].t);
     }
     head = 1;
     tail = n + 1;
