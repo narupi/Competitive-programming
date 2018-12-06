@@ -22,7 +22,7 @@ int main(){
         if(s[0] == '+') {
             a = pop();
             b = pop();
-            push(a - b);
+            push(a + b);
         }else if(s[0] == '-'){
             b = pop();
             a = pop();
